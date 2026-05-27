@@ -23,8 +23,10 @@ writing-samples/*
 !writing-samples/README.md
 
 # User config and customization (never auto-updated)
-config/profile.yml
-portals.yml
+# NOTE: for this scraper instance, profile.yml and portals.yml contain no
+# personal data — they are board operator config and ARE tracked in git.
+# config/profile.yml
+# portals.yml
 modes/_profile.md
 .update-dismissed
 .update-lock

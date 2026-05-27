@@ -1,0 +1,340 @@
+# Portal Scanner Configuration
+# GRC Jobs — NL GRC & Legal specialist job board sourcing
+# Primary market: Netherlands. Secondary: Belgium (Flanders). EU roles welcome.
+#
+# QUERY STRATEGY:
+#   - site:werkenbijgemeenten.nl — government GRC roles, confirmed indexed
+#   - site:linkedin.com/jobs — individual job view URLs with role+location
+#   - site:job-boards.greenhouse.io / site:jobs.lever.co / site:jobs.ashbyhq.com — ATS direct
+#   - site:nationalevacaturebank.nl — NL aggregator, returns individual listing URLs
+#   - site:werken.nl — NL aggregator
+#   - site:indeed.nl — avoid (returns meta/search pages, not individual listings)
+
+# -- Title filter --
+# GRC + Legal roles across all seniority levels.
+
+title_filter:
+  positive:
+    # -- Privacy & Data Protection --
+    - "Privacy Officer"
+    - "Privacy Jurist"
+    - "Privacy Adviseur"
+    - "Privacy Consultant"
+    - "Functionaris Gegevensbescherming"
+    - "Data Protection Officer"
+    - "DPO"
+    - "AVG Specialist"
+    - "GDPR Specialist"
+    - "Privacy Manager"
+    # -- Compliance --
+    - "Compliance Officer"
+    - "Compliance Manager"
+    - "Compliance Advisor"
+    - "Compliance Adviseur"
+    - "Compliance Specialist"
+    - "Compliance Consultant"
+    - "Chief Compliance Officer"
+    - "CCO"
+    - "Ethics Officer"
+    - "Integriteitsmedewerker"
+    - "Integriteitsfunctionaris"
+    # -- Risk --
+    - "Risk Manager"
+    - "Risk Officer"
+    - "Risk Analyst"
+    - "Risk Analist"
+    - "Risk Adviseur"
+    - "Enterprise Risk"
+    - "Operational Risk"
+    - "Risicobeheersing"
+    # -- IT Audit & InfoSec --
+    - "IT Auditor"
+    - "IT-auditor"
+    - "Information Security Officer"
+    - "CISO"
+    - "Chief Information Security Officer"
+    - "Security Officer"
+    - "Cybersecurity Officer"
+    - "ISSO"
+    # -- Audit --
+    - "Internal Auditor"
+    - "Interne Auditor"
+    - "Auditmanager"
+    - "Audit Manager"
+    - "IT Audit"
+    # -- Financial Crime / AML / KYC --
+    - "CDD Analist"
+    - "KYC Analist"
+    - "AML Analist"
+    - "AML Officer"
+    - "Financial Crime"
+    - "Wwft"
+    - "Sanctiespecialist"
+    - "Transaction Monitoring"
+    # -- Legal (in-house) --
+    - "Legal Counsel"
+    - "Bedrijfsjurist"
+    - "In-house Counsel"
+    - "Corporate Counsel"
+    - "Jurist"
+    - "Juridisch Adviseur"
+    - "Compliance Jurist"
+    # -- Regulatory Affairs --
+    - "Regulatory Affairs"
+    - "Regulatory Compliance"
+    - "Regulatory Specialist"
+    # -- Actuarial --
+    - "Actuaris"
+    - "Actuary"
+    - "Actuarieel"
+    - "Actuarial Analyst"
+    # -- GRC generalist --
+    - "GRC"
+    - "Governance Risk"
+    - "Risk & Compliance"
+    - "Risk and Compliance"
+
+  negative:
+    - "Stage"
+    - "Stagiair"
+    - "Recruitment"
+    - "Recruiter"
+    - "Sales"
+    - "Account Manager"
+    - "Business Developer"
+    - "Software Engineer"
+    - "Developer"
+    - "Data Scientist"
+    - "Data Engineer"
+    - "Machine Learning"
+    - "Boekhouder"
+    - "Administrateur"
+    - "Security Guard"    # physical security, not InfoSec
+    - "Beveiliging"       # physical security
+
+# -- Search queries (WebSearch, Level 3) --
+
+search_queries:
+
+  # ── NL government / specialist boards ──
+
+  - name: Werkenbijgemeenten — Privacy Officer / FG
+    query: 'site:werkenbijgemeenten.nl ("Privacy Officer" OR "Functionaris Gegevensbescherming" OR "Privacy Adviseur" OR "Privacy Jurist")'
+    enabled: true
+
+  - name: Werkenbijgemeenten — Compliance / Risk / Audit
+    query: 'site:werkenbijgemeenten.nl ("Compliance Officer" OR "Risk Manager" OR "Internal Auditor" OR "Interne Auditor" OR "Informatiebeveiliging")'
+    enabled: true
+
+  - name: Werkenvoornederland — Privacy / Compliance / Risk
+    query: 'site:werkenvoornederland.nl ("Privacy Officer" OR "Functionaris Gegevensbescherming" OR "Compliance Officer" OR "Risk Manager" OR "IT Auditor")'
+    enabled: true
+
+  - name: Nationalevacaturebank — Privacy / DPO
+    query: 'site:nationalevacaturebank.nl ("Privacy Officer" OR "Functionaris Gegevensbescherming" OR "Data Protection Officer" OR "Privacy Jurist")'
+    enabled: true
+
+  - name: Nationalevacaturebank — Compliance / Risk
+    query: 'site:nationalevacaturebank.nl ("Compliance Officer" OR "Risk Manager" OR "IT Auditor" OR "AML" OR "KYC" OR "CDD Analist")'
+    enabled: true
+
+  - name: Nationalevacaturebank — Legal Counsel / Jurist
+    query: 'site:nationalevacaturebank.nl ("Legal Counsel" OR "Bedrijfsjurist" OR "Juridisch Adviseur" OR "In-house Counsel")'
+    enabled: true
+
+  # ── LinkedIn ──
+
+  - name: LinkedIn — Privacy Officer NL
+    query: 'site:linkedin.com/jobs "Privacy Officer" Netherlands'
+    enabled: true
+
+  - name: LinkedIn — Compliance Officer NL
+    query: 'site:linkedin.com/jobs "Compliance Officer" Netherlands'
+    enabled: true
+
+  - name: LinkedIn — IT Auditor / CISO NL
+    query: 'site:linkedin.com/jobs ("IT Auditor" OR "CISO" OR "Information Security Officer") Netherlands'
+    enabled: true
+
+  - name: LinkedIn — Legal Counsel / Bedrijfsjurist NL
+    query: 'site:linkedin.com/jobs ("Legal Counsel" OR "Bedrijfsjurist" OR "In-house Counsel") Netherlands'
+    enabled: true
+
+  - name: LinkedIn — Risk / AML / KYC NL
+    query: 'site:linkedin.com/jobs ("Risk Manager" OR "AML Officer" OR "KYC Analist" OR "CDD Analist") Netherlands'
+    enabled: true
+
+  - name: LinkedIn — Internal Auditor / FG NL
+    query: 'site:linkedin.com/jobs ("Internal Auditor" OR "Interne Auditor" OR "Functionaris Gegevensbescherming") Netherlands'
+    enabled: true
+
+  # ── Regulator career pages ──
+
+  - name: DNB — Toezicht / Risk / Compliance
+    query: 'site:werkenbijdnb.nl ("Toezichthouder" OR "Risk" OR "Compliance" OR "Analist" OR "Jurist" OR "IT Auditor")'
+    enabled: true
+
+  - name: AFM — Toezicht / Compliance / Legal
+    query: 'site:werkenbijafm.nl ("Toezichthouder" OR "Compliance" OR "Legal" OR "Jurist" OR "Risk" OR "Analist")'
+    enabled: true
+
+  - name: AP — Privacy / Toezicht
+    query: 'site:autoriteitpersoonsgegevens.nl/over-de-ap/werken-bij-de-ap ("Medewerker" OR "Jurist" OR "Toezichthouder" OR "Analist")'
+    enabled: true
+
+  # ── Big 4 NL ──
+
+  - name: KPMG NL — Risk / Compliance / Audit
+    query: 'site:kpmg.nl/nl/careers ("Risk" OR "Compliance" OR "Internal Audit" OR "IT Audit" OR "Privacy" OR "Regulatory")'
+    enabled: true
+
+  - name: Deloitte NL — Risk / Compliance / Privacy
+    query: 'site:werkenbijdeloitte.nl ("Risk" OR "Compliance" OR "Privacy" OR "IT Audit" OR "Internal Audit" OR "Regulatory" OR "Forensic")'
+    enabled: true
+
+  - name: PwC NL — Risk / Compliance / Legal
+    query: 'site:pwc.nl/nl/careers ("Risk" OR "Compliance" OR "Legal" OR "Privacy" OR "Audit" OR "Regulatory")'
+    enabled: true
+
+  - name: EY NL — Risk / Assurance / Forensic
+    query: 'site:careers.ey.com ("Risk" OR "Compliance" OR "Privacy" OR "IT Audit" OR "Assurance" OR "Forensic") (Netherlands OR Amsterdam OR remote)'
+    enabled: true
+
+  # ── Major NL banks ──
+
+  - name: ING — Compliance / Risk / AML / Privacy
+    query: 'site:ing.jobs ("Compliance" OR "Risk" OR "Privacy" OR "KYC" OR "AML" OR "CDD" OR "Audit" OR "Legal")'
+    enabled: true
+
+  - name: Rabobank — Compliance / Risk / Legal
+    query: 'site:jobs.rabobank.nl ("Compliance" OR "Risk" OR "Privacy" OR "Legal" OR "Audit" OR "KYC" OR "AML")'
+    enabled: true
+
+  - name: ABN AMRO — Compliance / Risk / Audit
+    query: 'site:werkenbijabnamro.nl ("Compliance" OR "Risk" OR "Privacy" OR "Audit" OR "KYC" OR "AML" OR "Legal")'
+    enabled: true
+
+  - name: NN Group — Compliance / Risk / Actuaris
+    query: 'site:nn-careers.com ("Compliance" OR "Risk" OR "Actuaris" OR "Actuary" OR "Legal" OR "Privacy" OR "Audit")'
+    enabled: true
+
+  - name: ASR — Compliance / Risk / Actuarial
+    query: '"ASR Nederland" careers ("Compliance" OR "Risk" OR "Actuaris" OR "Legal" OR "Privacy" OR "Audit")'
+    enabled: true
+
+  # ── ATS platforms — confirmed working ──
+
+  - name: Greenhouse — Compliance / Privacy NL/EU
+    query: 'site:job-boards.greenhouse.io ("Compliance Officer" OR "Privacy Officer" OR "Data Protection" OR "Risk Manager") (Netherlands OR Amsterdam OR Europe OR remote)'
+    enabled: true
+
+  - name: Greenhouse — Legal Counsel / DPO NL/EU
+    query: 'site:job-boards.greenhouse.io ("Legal Counsel" OR "DPO" OR "Data Protection Officer" OR "General Counsel") (Netherlands OR Amsterdam OR Europe OR remote)'
+    enabled: true
+
+  - name: Greenhouse — IT Auditor / CISO NL/EU
+    query: 'site:job-boards.greenhouse.io ("IT Auditor" OR "CISO" OR "Information Security Officer" OR "Internal Auditor") (Netherlands OR Amsterdam OR Europe)'
+    enabled: true
+
+  - name: Lever — Compliance / Privacy NL/EU
+    query: 'site:jobs.lever.co ("Compliance Officer" OR "Privacy Officer" OR "Data Protection" OR "Risk Manager") (Netherlands OR Amsterdam OR Europe OR remote)'
+    enabled: true
+
+  - name: Lever — Legal Counsel NL/EU
+    query: 'site:jobs.lever.co ("Legal Counsel" OR "General Counsel" OR "DPO" OR "Data Protection Officer") (Netherlands OR Amsterdam OR Europe)'
+    enabled: true
+
+  - name: Ashby — Compliance / Privacy / Legal EU
+    query: 'site:jobs.ashbyhq.com ("Compliance" OR "Privacy" OR "Legal Counsel" OR "Risk" OR "Data Protection") (Netherlands OR Amsterdam OR Europe OR remote)'
+    enabled: true
+
+# -- Tracked companies (Greenhouse / Ashby / Lever direct API) --
+# Zero-token: scan.mjs hits these APIs directly without LLM calls.
+
+tracked_companies:
+
+  # -- Greenhouse --
+
+  - name: Adyen
+    careers_url: https://job-boards.greenhouse.io/adyen
+    notes: "Amsterdam. Payments. Active Compliance/Risk/Legal/Privacy hiring."
+    enabled: true
+
+  - name: Mollie
+    careers_url: https://job-boards.greenhouse.io/mollie
+    notes: "Amsterdam. Fintech payments. Regulated, active GRC hiring."
+    enabled: true
+
+  - name: Backbase
+    careers_url: https://job-boards.greenhouse.io/backbase
+    notes: "Amsterdam. Banking software. Legal/Compliance roles."
+    enabled: true
+
+  - name: Bitvavo
+    careers_url: https://job-boards.greenhouse.io/bitvavo
+    notes: "Amsterdam. Crypto exchange. Heavy AML/KYC/Compliance hiring."
+    enabled: true
+
+  - name: Picnic
+    careers_url: https://job-boards.greenhouse.io/picnic
+    notes: "Amsterdam. E-commerce. Legal/Privacy roles."
+    enabled: true
+
+  - name: ChannelEngine
+    careers_url: https://job-boards.greenhouse.io/channelengine
+    notes: "Leiden. E-commerce SaaS. Legal/Compliance."
+    enabled: true
+
+  - name: Treatwell
+    careers_url: https://job-boards.greenhouse.io/treatwell
+    notes: "Amsterdam. Beauty marketplace. Privacy/Legal."
+    enabled: true
+
+  - name: Messagebird / Bird
+    careers_url: https://job-boards.greenhouse.io/messagebird
+    notes: "Amsterdam. Cloud communications. Compliance/Legal."
+    enabled: true
+
+  # -- Ashby --
+
+  - name: Bunq
+    careers_url: https://jobs.ashbyhq.com/bunq
+    notes: "Amsterdam. Challenger bank. Active Compliance/Risk/Legal."
+    enabled: true
+
+  - name: Silverflow
+    careers_url: https://jobs.ashbyhq.com/silverflow
+    notes: "Amsterdam. Payments infrastructure. Compliance/Legal."
+    enabled: true
+
+  - name: Fourthline
+    careers_url: https://jobs.ashbyhq.com/fourthline
+    notes: "Amsterdam. KYC/identity fintech. Core audience for this board."
+    enabled: true
+
+  # -- Lever --
+
+  - name: Mendix
+    careers_url: https://jobs.lever.co/mendix
+    notes: "Rotterdam. Low-code platform (Siemens). Legal/Compliance."
+    enabled: true
+
+  - name: Catawiki
+    careers_url: https://jobs.lever.co/catawiki
+    notes: "Amsterdam. Online marketplace. Legal/Compliance/Privacy."
+    enabled: true
+
+  - name: TomTom
+    careers_url: https://jobs.lever.co/tomtom
+    notes: "Amsterdam. Location tech. Privacy/Legal."
+    enabled: true
+
+  - name: Templafy
+    careers_url: https://jobs.lever.co/templafy
+    notes: "Amsterdam. Enterprise SaaS. Legal/Compliance."
+    enabled: true
+
+  - name: Framer
+    careers_url: https://jobs.lever.co/framer
+    notes: "Amsterdam. Design SaaS. Privacy/Legal."
+    enabled: true

@@ -1,12 +1,16 @@
-# Career-Ops -- AI Job Search Pipeline
+# GRC Scraper — AI Job Sourcing Pipeline for GRC Jobs Board
 
-## Origin
+## Purpose
 
-This system was built and used by [santifer](https://santifer.io) to evaluate 740+ job offers, generate 100+ tailored CVs, and land a Head of Applied AI role. The archetypes, scoring logic, negotiation scripts, and proof point structure all reflect his specific career search in AI/automation roles.
+This is career-ops configured as a **job board scraper**, not a personal job search tool. It sources GRC & Legal vacancies (Netherlands-focused, EU-welcome) and pushes them into the GRC Jobs board staging queue for admin review.
 
-The portfolio that goes with this system is also open source: [cv-santiago](https://github.com/santifer/cv-santiago).
+**Primary command:** `/career-ops` → select `grc-board-ingest`, or invoke directly.
 
-**It will work out of the box, but it's designed to be made yours.** If the archetypes don't match your career, the modes are in the wrong language, or the scoring doesn't fit your priorities -- just ask. You (AI Agent) can edit the user's files. The user says "change the archetypes to data engineering roles" and you do it. That's the whole point.
+**Board:** GRC Jobs — specialist job board for Governance, Risk & Compliance + Legal professionals in the Netherlands. See `../grc-jobs/` for the board codebase and `../grc-jobs/research/00-master-plan.md` for full strategy.
+
+---
+
+## Origin (upstream)
 
 ## Data Contract (CRITICAL)
 
@@ -260,6 +264,7 @@ Default modes are in `modes/` (English). Additional language-specific modes are 
 | Asks about rejection patterns or wants to improve targeting | `patterns` |
 | Asks about follow-ups or application cadence | `followup` |
 | Scans for fashion jobs and ingests to Fashion Workplace board | `fashion-board-ingest` |
+| Scans for GRC/Legal jobs (NL) and ingests to GRC Jobs board | `grc-board-ingest` |
 
 ### CV Source of Truth
 

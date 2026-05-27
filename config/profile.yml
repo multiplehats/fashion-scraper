@@ -1,0 +1,50 @@
+# GRC Scraper — Operator Configuration
+# This instance is a job board scraper, not a personal job search tool.
+# The "candidate" block is repurposed as board operator metadata.
+
+operator:
+  board_name: "GRC Jobs"
+  board_url: ""  # fill in once domain is live
+  contact_email: "hi@chrisjayden.com"
+  market: "Netherlands (primary), Belgium Flanders (secondary), EU (welcome)"
+
+scraper:
+  # Primary mode for this instance
+  default_mode: "grc-board-ingest"
+  # MCP tool prefix — update when board MCP is configured
+  mcp_prefix: "mcp__grcjobs"
+  # Max jobs per run
+  run_cap: 50
+  # Max jobs per company per run (prevents flooding review queue)
+  per_company_cap: 8
+
+target_roles:
+  # Roles this board covers — used for title filter validation
+  primary:
+    - "Privacy Officer"
+    - "Functionaris Gegevensbescherming"
+    - "DPO"
+    - "Compliance Officer"
+    - "IT Auditor"
+    - "CISO"
+    - "Risk Manager"
+    - "Internal Auditor"
+    - "Legal Counsel"
+    - "Bedrijfsjurist"
+    - "CDD Analist"
+    - "KYC Analist"
+    - "AML Officer"
+    - "Regulatory Affairs"
+    - "Actuaris"
+  adjacent:
+    - "Privacy Jurist"
+    - "Privacy Adviseur"
+    - "Juridisch Adviseur"
+    - "Ethics Officer"
+    - "Security Officer"
+
+markets:
+  primary: "NL"
+  secondary:
+    - "BE"
+  eu_remote: true
