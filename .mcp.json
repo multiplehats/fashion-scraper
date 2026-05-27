@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "fashionworkplace": {
+      "type": "http",
+      "url": "https://www.fashionworkplace.com/admin/mcp",
+      "oauth": {}
+    }
+  }
+}

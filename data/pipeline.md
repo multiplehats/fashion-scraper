@@ -1,0 +1,194 @@
+# Pipeline — Ofertas Pendientes
+
+## Pendientes
+
+- [x] https://nl.linkedin.com/jobs/view/assistent-productontwikkeling-at-kjelvik-international-b-v-4408428097 | Kjelvik International B.V. | Assistent productontwikkeling
+- [x] https://fashionunited.nl/modevacatures/buying-and-product-developer-30-38-uur-duiven-1933212 | Donders 1860 | Buying & Product Developer
+- [x] https://fashionunited.nl/modevacatures/fashiondesign-bij-open32-arnhem-1940529 | OPEN32 | Fashion Designer (Senior)
+- [x] https://nl.linkedin.com/jobs/view/product-developer-textiel-babyproducten-at-smits-assen-b-v-jollein-4419193830 | Jollein | Product Developer (Textiel & Babyproducten)
+- [x] https://www.stepstone.de/stellenangebote--Senior-Mode-Designer-m-w-d-Coesfeld-Lette-bij-Muenster-Ernstings-family--13983617-inline.html | Ernsting's family | Senior Mode Designer
+- [x] https://nl.linkedin.com/jobs/view/flatknit-designer-at-garcia-4413394622 | Garcia B.V. | Flatknit Designer
+- [x] https://nl.linkedin.com/jobs/view/designer-womenswear-circular-knit-tommy-hilfiger-at-tommy-hilfiger-4405287848 | Tommy Hilfiger | Designer Womenswear Circular Knit
+- [x] https://nl.linkedin.com/jobs/view/junior-designer-th-lab-collaborations-sponsorships-at-tommy-hilfiger-4418103422 | Tommy Hilfiger | Junior Designer – TH LAB Collaborations & Sponsorships
+- [x] https://nl.linkedin.com/jobs/view/junior-designer-runway-celebrity-dressing-at-tommy-hilfiger-4405400060 | Tommy Hilfiger | Junior Designer – Runway & Celebrity Dressing
+- [x] https://nl.linkedin.com/jobs/view/designer-tailoring-runway-celebrity-dressing-at-tommy-hilfiger-4411218299 | Tommy Hilfiger | Designer – Tailoring – Runway & Celebrity Dressing
+- [x] https://www.stepstone.de/stellenangebote--Fashion-Designer-Technical-Product-Developer-w-m-d-Sulingen-Lloyd-Lifestyle-GmbH--13999810-inline.html | Lloyd Lifestyle GmbH | Fashion Designer & Technical Product Developer
+- [x] https://fashionunited.de/jobs-in-der-mode/designer-menswear-m-w-d-bielefeld-1940383 | Seidensticker | Designer Menswear
+- [x] https://fashionunited.de/jobs-in-der-mode/designer-m-w-d-outdoor-isernhagen-1947332 | Street One GmbH | Designer – Outdoor
+- [x] https://fashionunited.de/jobs-in-der-mode/designer-m-w-d-hosen-isernhagen-1946532 | Street One GmbH | Designer – Hosen
+- [x] https://nl.linkedin.com/jobs/view/3d-fashion-designer-at-isrid-agency-fashion-luxury-recruitment-4418244574 | ISRID Agency | 3D Fashion Designer
+- [x] https://fashionsolution.nl/vacature/designer-product-developer-casual-denim-8580/ | Red Button (via Fashion Solution) | Designer Product Developer Casual Denim
+
+- [ ] https://job-boards.greenhouse.io/fashionnova/jobs/7669448 | Fashion Nova | Apparel Designer
+- [ ] https://job-boards.greenhouse.io/fashionnova/jobs/7545947 | Fashion Nova | Art Director
+- [ ] https://job-boards.greenhouse.io/fashionnova/jobs/7210898 | Fashion Nova | Assistant Buyer - Men's 
+- [ ] https://job-boards.greenhouse.io/fashionnova/jobs/6313773 | Fashion Nova | Assistant Buyer - Women's
+- [ ] https://job-boards.greenhouse.io/fashionnova/jobs/7118613 | Fashion Nova | Assistant Manager, Product Development 
+- [ ] https://job-boards.greenhouse.io/fashionnova/jobs/5519522 | Fashion Nova | Assistant Manager, Product Development & Production
+- [ ] https://job-boards.greenhouse.io/fashionnova/jobs/5842932 | Fashion Nova | Assistant Replenishment Buyer
+- [ ] https://job-boards.greenhouse.io/fashionnova/jobs/7441179 | Fashion Nova | Assistant Site Merchandiser
+- [ ] https://job-boards.greenhouse.io/fashionnova/jobs/7036209 | Fashion Nova | Assistant Stylist
+- [ ] https://job-boards.greenhouse.io/fashionnova/jobs/6759294 | Fashion Nova | Assistant Technical Designer 
+- [ ] https://job-boards.greenhouse.io/fashionnova/jobs/7271867 | Fashion Nova | Associate Buyer - Men's
+- [ ] https://job-boards.greenhouse.io/fashionnova/jobs/6998508 | Fashion Nova | Associate Buyer - Women's
+- [ ] https://job-boards.greenhouse.io/fashionnova/jobs/7269576 | Fashion Nova | Associate Merchandise Planner
+- [ ] https://job-boards.greenhouse.io/fashionnova/jobs/6388939 | Fashion Nova | Associate Replenishment Buyer
+- [ ] https://job-boards.greenhouse.io/fashionnova/jobs/7528330 | Fashion Nova | Associate Technical Designer - Intimates & Swim
+- [ ] https://job-boards.greenhouse.io/fashionnova/jobs/6947471 | Fashion Nova | Buyer - Men's
+- [ ] https://job-boards.greenhouse.io/fashionnova/jobs/7202629 | Fashion Nova | Buyer - Sweaters
+- [ ] https://job-boards.greenhouse.io/fashionnova/jobs/7648200 | Fashion Nova | Buyer - Swim
+- [ ] https://job-boards.greenhouse.io/fashionnova/jobs/7216561 | Fashion Nova | Buyer - Tops
+- [ ] https://job-boards.greenhouse.io/fashionnova/jobs/6295620 | Fashion Nova | Buyer - Women's
+- [ ] https://job-boards.greenhouse.io/fashionnova/jobs/5940200 | Fashion Nova | Buyer - Women's Denim
+- [ ] https://job-boards.greenhouse.io/fashionnova/jobs/6057762 | Fashion Nova | Buyer - Women's Graphic Tops
+- [ ] https://job-boards.greenhouse.io/fashionnova/jobs/7412360 | Fashion Nova | Buyer - Women's Outerwear
+- [ ] https://job-boards.greenhouse.io/fashionnova/jobs/6309208 | Fashion Nova | Buying Manager - Women's
+- [ ] https://job-boards.greenhouse.io/fashionnova/jobs/6132347 | Fashion Nova | Content Creator
+- [ ] https://job-boards.greenhouse.io/fashionnova/jobs/6507232 | Fashion Nova | Merchandise Planner 
+- [ ] https://job-boards.greenhouse.io/fashionnova/jobs/7274161 | Fashion Nova | Product Developer
+- [ ] https://job-boards.greenhouse.io/fashionnova/jobs/7766730 | Fashion Nova | Product Developer - Men's
+- [ ] https://job-boards.greenhouse.io/fashionnova/jobs/7210945 | Fashion Nova | Product Development & Production Coordinator 
+- [ ] https://job-boards.greenhouse.io/fashionnova/jobs/5842924 | Fashion Nova | Replenishment Buyer
+- [ ] https://job-boards.greenhouse.io/fashionnova/jobs/7344386 | Fashion Nova | Senior Buyer - Kids
+- [ ] https://job-boards.greenhouse.io/fashionnova/jobs/6850002 | Fashion Nova | Senior Buyer - Lingerie & Intimates
+- [ ] https://job-boards.greenhouse.io/fashionnova/jobs/6974926 | Fashion Nova | Senior Buyer - Men's
+- [ ] https://job-boards.greenhouse.io/fashionnova/jobs/7103296 | Fashion Nova | Senior Buyer - Women's
+- [ ] https://job-boards.greenhouse.io/fashionnova/jobs/7684821 | Fashion Nova | Senior Manager, Product Development - Activewear
+- [ ] https://job-boards.greenhouse.io/fashionnova/jobs/6249371 | Fashion Nova | Senior Merchandise Planner
+- [ ] https://job-boards.greenhouse.io/fashionnova/jobs/5509582 | Fashion Nova | Senior Product Development & Production Coordinator 
+- [ ] https://job-boards.greenhouse.io/fashionnova/jobs/7220162 | Fashion Nova | Stylist
+- [ ] https://job-boards.greenhouse.io/fashionnova/jobs/7954709 | Fashion Nova | Technical Designer - Men's
+- [ ] https://job-boards.greenhouse.io/fashionnova/jobs/6463029 | Fashion Nova | Technical Designer - Women's
+- [ ] https://job-boards.greenhouse.io/fashionnova/jobs/7569009 | Fashion Nova | Technical Designer - Women's Design
+- [x] https://job-boards.greenhouse.io/fambrands/jobs/5218217008 | FAM Brands | Associate Apparel Product Developer 
+- [x] https://job-boards.greenhouse.io/fambrands/jobs/5176537008 | FAM Brands | Design Manager
+- [x] https://job-boards.greenhouse.io/fambrands/jobs/5170729008 | FAM Brands | Merchandising Manager - Women's Sportswear
+- [x] https://job-boards.greenhouse.io/khaite/jobs/5211066008 | KHAITE | Digital Merchandising Manager
+- [x] https://job-boards.greenhouse.io/quince/jobs/5173164008 | Quince | Affiliate Marketing Manager, UK
+- [ ] https://job-boards.greenhouse.io/quince/jobs/5106650008 | Quince | Apparel- Active  Sourcing Manager, M Active (CN)
+- [ ] https://job-boards.greenhouse.io/quince/jobs/5108181008 | Quince | Apparel- Active  Sourcing Manager, M Active (SEA)
+- [ ] https://job-boards.greenhouse.io/quince/jobs/5098018008 | Quince | Apparel- Sourcing Manager, Activewear
+- [ ] https://job-boards.greenhouse.io/quince/jobs/5097923008 | Quince | Apparel - Sourcing Manager, Men's Leather Outerwear (EUR)
+- [ ] https://job-boards.greenhouse.io/quince/jobs/5173997008 | Quince | Apparel - Sourcing Manager, Men's Sweaters 
+- [ ] https://job-boards.greenhouse.io/quince/jobs/5218554008 | Quince | Apparel - Sourcing Manager, Men's Sweaters (NE & EUR)
+- [ ] https://job-boards.greenhouse.io/quince/jobs/5097895008 | Quince | Apparel - Sourcing Manager, Men's Woven Tops
+- [ ] https://job-boards.greenhouse.io/quince/jobs/5097926008 | Quince | Apparel - Sourcing Manager, Men's Woven Tops (EUR)
+- [ ] https://job-boards.greenhouse.io/quince/jobs/5218546008 | Quince | Apparel - Sourcing Manager, Women's Leather Outerwear
+- [ ] https://job-boards.greenhouse.io/quince/jobs/5190396008 | Quince | Apparel - Sourcing Manager, Women's Sweaters
+- [ ] https://job-boards.greenhouse.io/quince/jobs/5173998008 | Quince | Apparel - Sourcing Manager, Women's Woven Tops
+- [ ] https://job-boards.greenhouse.io/quince/jobs/5218531008 | Quince | Apparel - Sourcing Manager, Women's Woven Tops (NE & EUR)
+- [ ] https://job-boards.greenhouse.io/quince/jobs/4678473008 | Quince | Area Manager, Warehouse Operations 
+- [ ] https://job-boards.greenhouse.io/quince/jobs/5198485008 | Quince | Business Development Coordinator, B2B Events
+- [ ] https://job-boards.greenhouse.io/quince/jobs/5232031008 | Quince | Go-to-Market Systems & CRM Manager
+- [ ] https://job-boards.greenhouse.io/quince/jobs/5057532008 | Quince | Head of Merchandising - CPG, Canada
+- [ ] https://job-boards.greenhouse.io/quince/jobs/4754164008 | Quince | Head of Merchandising, Women's Apparel UK/EU
+- [ ] https://job-boards.greenhouse.io/quince/jobs/5112030008 | Quince | Home- Soft  Sourcing Managers, Soft Home (EUR)
+- [ ] https://job-boards.greenhouse.io/quince/jobs/5176578008 | Quince | Influencer Marketing, Associate Manager (Canada)
+- [ ] https://job-boards.greenhouse.io/quince/jobs/5169449008 | Quince | Materials Sourcing Manager, Linen (CN)
+- [ ] https://job-boards.greenhouse.io/quince/jobs/5105644008 | Quince | Merchandising Manager, Bridesmaids Dresses
+- [ ] https://job-boards.greenhouse.io/quince/jobs/5109017008 | Quince | Production Manager, Apparel (MX)
+- [ ] https://job-boards.greenhouse.io/quince/jobs/4894646008 | Quince | Production Manager - Jewelry
+- [ ] https://job-boards.greenhouse.io/quince/jobs/5164758008 | Quince | Re-Commerce Manager
+- [ ] https://job-boards.greenhouse.io/quince/jobs/5167606008 | Quince | Retention Marketing Manager (Canada)
+- [ ] https://job-boards.greenhouse.io/quince/jobs/5195863008 | Quince | Senior Category Manager, Home (EU Country)
+- [ ] https://job-boards.greenhouse.io/quince/jobs/5195859008 | Quince | Senior Category Manager, Men’s (EU country) 
+- [ ] https://job-boards.greenhouse.io/quince/jobs/5226079008 | Quince | Senior Sourcing Manager - Bags and Luggage
+- [ ] https://job-boards.greenhouse.io/quince/jobs/5041095008 | Quince | Senior Sourcing Manager, Furniture
+- [ ] https://job-boards.greenhouse.io/quince/jobs/5006620008 | Quince | Senior Sourcing Manager, Soft Home (Europe)
+- [ ] https://job-boards.greenhouse.io/quince/jobs/5155685008 | Quince | Senior Technical Designer, Apparel
+- [ ] https://job-boards.greenhouse.io/quince/jobs/5226703008 | Quince | Senior Technical Designer, Bridesmaid Dresses
+- [ ] https://job-boards.greenhouse.io/quince/jobs/5172243008 | Quince | Senior Technical Designer, Kids & Baby
+- [ ] https://job-boards.greenhouse.io/quince/jobs/5226693008 | Quince | Senior Technical Designer, Men's Apparel
+- [ ] https://job-boards.greenhouse.io/quince/jobs/5226708008 | Quince | Senior Technical Designer, Young Adult
+- [ ] https://job-boards.greenhouse.io/quince/jobs/5111858008 | Quince | Site Merchandising Manager, Canada
+- [ ] https://job-boards.greenhouse.io/quince/jobs/5052079008 | Quince | Sourcing Manager, Americas (Footwear and Accessories)
+- [ ] https://job-boards.greenhouse.io/quince/jobs/5218452008 | Quince | Sourcing Manager - Fine Jewelry
+- [ ] https://job-boards.greenhouse.io/quince/jobs/5139045008 | Quince | Sourcing Manager, Intimates/Lounge/Swim (HK/China)
+- [ ] https://job-boards.greenhouse.io/quince/jobs/5154462008 | Quince | Sourcing Manager, Jewelry (ISC)
+- [ ] https://job-boards.greenhouse.io/quince/jobs/5098017008 | Quince |  Sourcing Manager, Leather Accessories
+- [ ] https://job-boards.greenhouse.io/quince/jobs/5011765008 | Quince | Sourcing Manager, Men's Knit Tops (LATAM) 
+- [ ] https://job-boards.greenhouse.io/quince/jobs/5102482008 | Quince | Sourcing Manager, Mens Knit Tops (SEA)
+- [ ] https://job-boards.greenhouse.io/quince/jobs/5102474008 | Quince | Sourcing Manager, Men's Outerwear (CN/SEA)
+- [ ] https://job-boards.greenhouse.io/quince/jobs/5102463008 | Quince | Sourcing Manager, Men's Suiting (CN/SEA)
+- [ ] https://job-boards.greenhouse.io/quince/jobs/5196227008 | Quince | Sourcing Manager, Men's Sweaters (SEA)
+- [ ] https://job-boards.greenhouse.io/quince/jobs/5207909008 | Quince | Sourcing Manager, Soft Home (LATAM)
+- [ ] https://job-boards.greenhouse.io/quince/jobs/5208088008 | Quince | Sourcing Manager, Soft Home (NA)
+- [ ] https://job-boards.greenhouse.io/quince/jobs/5196243008 | Quince | Sourcing Manager, Women Knit Tops 
+- [ ] https://jobs.ashbyhq.com/poshmark/92badbdf-daec-49ea-bf4a-95b360d0dece | Poshmark | Sr. Lead Data Analyst (Merchandising and Revenue)
+- [ ] https://jobs.lever.co/farfetch/d550cadc-f57d-41ba-91f5-b0b326d89f77 | Farfetch | Interim - Account Manager - Italian Speaking
+- [ ] https://jobs.lever.co/farfetch/43f50c21-3242-452f-9d73-28cf4d4bfd8d | Farfetch | Interim Account Manager - FARFETCH Advertising
+- [ ] https://jobs.lever.co/farfetch/9a9af85b-1b91-4e89-acd9-4ce8aa16422c | Farfetch | Junior Brand Manager (E-Concessions)
+- [ ] https://jobs.lever.co/farfetch/4d7091db-26e1-4f58-b211-50fe7dca65ac | Farfetch | Junior Private Client Stylist
+- [ ] https://jobs.lever.co/farfetch/10df679a-8eca-4b31-bf53-19576e68b6fa | Farfetch | Regional Sales Manager, Private Client
+- [ ] https://jobs.lever.co/culturekings/cfdf8376-020f-416f-ad38-57829bfa3d86 | Culture Kings | Retail Visual Merchandiser
+- [ ] https://jobs.lever.co/buckmason/1fc6c01d-d304-42f3-b783-4f5e5a057744 | Buck Mason | Assistant Merchandiser: Men's and Women's Collection
+- [ ] https://jobs.lever.co/buckmason/6d01d563-03e4-408c-8b65-7ca7ebcea9d9 | Buck Mason | Design Director, Women’s Wovens
+- [ ] https://jobs.lever.co/buckmason/08addda6-896f-4f70-9eb6-dff16770423b | Buck Mason | Product Development Associate
+- [ ] https://jobs.lever.co/buckmason/c64137bc-572d-4e4f-be5d-3097430855c3 | Buck Mason | Product Development Coordinator - Part-Time/Temp
+- [ ] https://jobs.lever.co/buckmason/df1f17ef-2a62-431e-9d89-86aa05daedba | Buck Mason | Sales Manager (12 South Women's)
+- [ ] https://jobs.lever.co/buckmason/930cad27-c7fe-4920-9b53-c0697f5b1a2e | Buck Mason | Senior Product Development Associate
+- [ ] https://jobs.lever.co/buckmason/937af9cc-c53d-437f-bd02-f49cc9efd235 | Buck Mason | Store Manager (Easton Town Center)
+- [ ] https://jobs.lever.co/vicicollection/a7eb165b-394a-41b0-8c44-945142133889 | VICI Collection | Associate Merchandise Planner
+- [ ] https://jobs.lever.co/vicicollection/b4cf7e39-c358-4562-a864-a92bfa91910b | VICI Collection | Store Manager
+- [ ] https://jobs.lever.co/arcteryx.com/c65a2d33-3fb8-49d4-b66a-ad4174d6fbfa | ARC'TERYX | Assistant Store Manager (h/f/d) - La Vallée
+- [ ] https://jobs.lever.co/arcteryx.com/b2ea04b8-e7b4-49b5-84bc-dc659bbdc08c | ARC'TERYX | Assistant Store Manager (m/f/d) - Roermond
+- [ ] https://jobs.lever.co/arcteryx.com/9462fd34-0f75-4047-b727-446a179e0e89 | ARC'TERYX | Assistant Store Manager (Temporary) | Downtown Kelowna | Kelowna, BC
+- [ ] https://jobs.lever.co/arcteryx.com/84dd9a5c-b4a1-4fec-96c3-7284d3b0355d | ARC'TERYX | Assistant Store Manager | Abbot Kinney | Los Angeles, CA
+- [ ] https://jobs.lever.co/arcteryx.com/fbce6832-11ec-4506-a118-04b19444aef0 | ARC'TERYX | Assistant Store Manager | Mall of America | Bloomington, MN
+- [ ] https://jobs.lever.co/arcteryx.com/dabffb3a-67a4-4a91-8879-f5e4cedd26b1 | ARC'TERYX | Assistant Store Manager | Manhasset
+- [ ] https://jobs.lever.co/arcteryx.com/442bc5fb-dbe3-4e1e-a355-67a620a19d2b | ARC'TERYX | Assistant Store Manager | Newbury | Boston, MA
+- [ ] https://jobs.lever.co/arcteryx.com/6c02c226-83e8-46e4-9891-1c592ae4c86e | ARC'TERYX | Assistant Store Manager | Sherway Gardens | Toronto, ON
+- [ ] https://jobs.lever.co/arcteryx.com/262a008a-cc77-4b85-9935-246b3591192a | ARC'TERYX | Director, Merchandising - APAC
+- [ ] https://jobs.lever.co/arcteryx.com/5c6bec31-6939-4fba-b6ab-f0b76747df9c | ARC'TERYX | Executive Assistant - Regional Merchandising
+- [ ] https://jobs.lever.co/arcteryx.com/81e0d701-e5dc-40ec-a32f-5d1b102e3edf | ARC'TERYX | Gestionnaire Adjoint ou Adjointe de Magasin | Assistant Store Manager | Quartier DIX 30 | Brossard, Quebec
+- [ ] https://jobs.lever.co/arcteryx.com/e2e3f426-b56c-4792-b25d-e44b691ba249 | ARC'TERYX | Manager, Pattern Maker
+- [ ] https://jobs.lever.co/arcteryx.com/b0717b62-607d-4ed6-ba22-700b78c4be37 | ARC'TERYX | National Account Manager, Footwear
+- [ ] https://jobs.lever.co/arcteryx.com/46b4878e-5251-4988-8a1e-19d4694e510f | ARC'TERYX | Pattern Maker 2
+- [ ] https://jobs.lever.co/arcteryx.com/8bdd47cf-a6c3-43cd-9d10-ac39d2ebbf4b | ARC'TERYX | Product Manager, Merchandising & Product Lifecycle Technology
+- [ ] https://jobs.lever.co/arcteryx.com/a35fca7f-9419-49d7-a80e-21ca390de5ab | ARC'TERYX | Production Manager, Finished Goods
+- [ ] https://jobs.lever.co/arcteryx.com/87348ee6-f333-480c-a1c5-956a99bd41ec | ARC'TERYX | Retail Store Manager | Fashion Outlets | Rosemont, IL
+- [ ] https://jobs.lever.co/arcteryx.com/4621ad90-a871-4a5d-9c81-9bd5df78151a | ARC'TERYX | Retail Store Manager I Arc'teryx Toronto Eaton Centre I Toronto, ON
+- [ ] https://jobs.lever.co/arcteryx.com/3476e611-2e22-425e-94c2-d76469972eb1 | ARC'TERYX | Senior Manager, Merchandising Men - EMEA (m/w/d)
+- [ ] https://jobs.lever.co/arcteryx.com/a6a1b07e-c62e-4e92-bb19-7a81dfce8a17 | ARC'TERYX | Senior Pattern Maker
+- [ ] https://jobs.lever.co/arcteryx.com/91e00a13-3864-4868-86a9-563dabcbf02a | ARC'TERYX | Store Manager
+- [ ] https://jobs.lever.co/arcteryx.com/0f2d394b-5c93-4a53-8464-6074b533d362 | ARC'TERYX | Store Manager (h/f/d) - La Vallée
+- [ ] https://jobs.lever.co/arcteryx.com/f90e9599-5ef4-4ba8-ba40-a5f7d438953e | ARC'TERYX | Store Manager (m/f/d) - Roermond
+- [ ] https://jobs.lever.co/arcteryx.com/ed1c8741-6ef3-443c-b3e8-8eab95aaa36e | ARC'TERYX | Store Manager (m/w/d) - Ingolstadt
+- [ ] https://jobs.lever.co/arcteryx.com/dd03f770-26a8-467b-afc2-5accf4ab0c29 | ARC'TERYX | Store Manager | Abbot Kinney | Los Angeles, CA
+- [ ] https://jobs.lever.co/arcteryx.com/5f9f1424-dc88-4b16-81f1-24454fbcdf08 | ARC'TERYX | Store Manager | Old Pasadena | Pasadena, CA
+- [ ] https://jobs.lever.co/arcteryx.com/bbe06358-8644-40da-8af3-c273b331e0a9 | ARC'TERYX | Visual Merchandising Manager – New Store Openings and Space Planning
+- [ ] https://jobs.lever.co/arcteryx.com/11c3b7aa-97ba-458f-b0ff-52a5393a8314 | ARC'TERYX | Visual Merchandising Planner - NAM
+- [ ] https://jobs.lever.co/vestiairecollective/3d44d3c6-7288-4bf8-a5df-806f768688ea | Vestiaire Collective | Head Of PR & Influencer Marketing
+- [ ] https://jobs.lever.co/vestiairecollective/9d875c0d-f647-4c50-a352-c05104fa8c2a | Vestiaire Collective | VIP Consignment Key Account Manager
+- [ ] https://jobs.lever.co/pattern/e3798018-ea8a-4296-92f0-05a8b234e7c2 | Pattern | Amazon Account Manager
+- [ ] https://jobs.lever.co/pattern/a1a7f6f7-592b-49e4-9a32-79c526388961 | Pattern | Area Manager - (Mon-Thurs Night Shift)
+- [ ] https://jobs.lever.co/pattern/7c448b3c-d924-4453-a534-e4e81d92fdbe | Pattern | Area Manager (Front Half Days)
+- [ ] https://jobs.lever.co/pattern/22b5bbbe-bf8d-491f-acbf-2a76fa0d77d2 | Pattern | Area Manager (Reverse Logistics)
+- [ ] https://jobs.lever.co/pattern/46201f3f-7cc4-4fde-b7c3-39d63f401b09 | Pattern | Area Manager (Sunday-Wednesday Night)
+- [ ] https://jobs.lever.co/pattern/fbb6a2ae-4773-4f53-a473-0351d7b8dc20 | Pattern | Area Manager (Sunday-Wednesday)
+- [ ] https://jobs.lever.co/pattern/cd6c4ce7-37ce-4d9c-8c3e-ce95e85c9ff3 | Pattern | Area Manager (Thursday-Saturday)
+- [ ] https://jobs.lever.co/pattern/e5cd904e-90ce-4977-97cb-093ddcb42478 | Pattern | Campaign Manager - TikTok Shop
+- [ ] https://jobs.lever.co/pattern/7c7ecd7f-c704-46d2-97b3-e4f5b06e5d44 | Pattern | Digital Marketing Manager
+- [ ] https://jobs.lever.co/pattern/47ed9585-143d-44c1-9203-7b1dea672783 | Pattern | eCommerce Manager
+- [ ] https://jobs.lever.co/pattern/afa56195-7028-49f3-b0b6-6eeae52c8e21 | Pattern | Ecommerce Manager_MENA
+- [ ] https://jobs.lever.co/pattern/6dfec2ac-1e3f-4155-abdf-f9b755c7e64f | Pattern | Global Named Account Manager
+- [ ] https://jobs.lever.co/pattern/85586fb0-774f-4b77-9e7f-21e8402decb1 | Pattern | Growth Marketing Manager
+- [ ] https://jobs.lever.co/pattern/c0b145ac-0a78-4acb-84e4-8c68ac2b868e | Pattern | Senior Account Manager - Advertising
+- [ ] https://jobs.lever.co/pattern/493035d6-b9e7-4152-bd40-9194b998ff29 | Pattern | Senior eCommerce Manager
+- [ ] https://jobs.lever.co/pattern/ee183784-82cf-445d-b406-291a1c715031 | Pattern | Senior Ecommerce Manager - 1P
+- [ ] https://jobs.lever.co/pattern/64d15108-0354-4d3f-ac3a-762a3899d7dc | Pattern | Senior Ecommerce Manager (Mandarin speaking)
+- [ ] https://jobs.lever.co/pattern/9514a595-e525-4f42-b6ac-76f82ef4d882 | Pattern | Senior Ecommerce Manager of Apparel
+- [ ] https://jobs.lever.co/pattern/cbe97d8c-cb19-4817-9f01-19b175ce84af | Pattern | TikTok Shop Account Manager
+- [ ] https://jobs.lever.co/knix/27b80fad-a94f-4a1e-8972-4645cca95f71 | Knix | Assistant Store Manager - Calgary
+- [ ] https://jobs.lever.co/knix/4aa38929-8ec6-40e5-afe6-dccc35a9bef4 | Knix | Assistant Store Manager - Mapleview Shopping Centre
+- [ ] https://jobs.lever.co/knix/0475eb9e-838b-4b48-9ea0-0fa72d6df8c3 | Knix | Assistant Store Manager - Upper Canada Mall
+- [ ] https://jobs.lever.co/knix/7898406c-c5c1-4814-946e-73561797c7f4 | Knix | Associate Creative Director
+- [ ] https://jobs.lever.co/knix/486826ae-78f0-440c-8da3-81a4b4144454 | Knix | Store Manager - Don Mills
+- [ ] https://jobs.lever.co/knix/790f430a-7a17-48cf-903a-3292e7737db2 | Knix | Store Manager - Mapleview
+- [ ] https://jobs.lever.co/knix/4f5ec830-4253-40ab-9a2d-24e7133649ea | Knix | Store Manager - Market Mall
+- [ ] https://jobs.lever.co/knix/73eb5fa1-797b-49f2-b5c4-fa170dc5ab9a | Knix | Store Manager - McArthur Glen Outlets
+- [ ] https://jobs.lever.co/knix/04a2b40e-5ff1-4d54-8c48-066a7878e3df | Knix | Store Manager - Upper Canada Mall
+
+## Procesadas
+
+(none yet)
