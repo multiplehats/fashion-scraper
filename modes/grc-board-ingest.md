@@ -1,6 +1,6 @@
-# Mode: grc-board-ingest — GRC Jobs Board Ingestion
+# Mode: grc-board-ingest — Rigormark Board Ingestion
 
-Scan for new GRC & Legal jobs (NL-focused) and push them into the GRC Jobs staging queue via MCP.
+Scan for new GRC & Legal jobs (NL-focused) and push them into the Rigormark staging queue via MCP.
 Jobs land in the review queue and are NOT published until an admin approves them.
 
 ## Overview
@@ -29,7 +29,7 @@ For each result URL:
 - Append new URLs to `data/pipeline.md` as `- [ ] {url} | {company} | {title}`
 - Record in `data/scan-history.tsv`
 
-## Phase 2 — Ingest to GRC Jobs staging queue
+## Phase 2 — Ingest to Rigormark staging queue
 
 Process unchecked URLs from `data/pipeline.md` in batches of up to 50.
 Cap per run: **50 URLs** — remaining stay in pipeline.md for the next run.
@@ -37,7 +37,7 @@ Cap per run: **50 URLs** — remaining stay in pipeline.md for the next run.
 
 ### Step 2a — Extract structured data
 
-For each URL, call `mcp__grcjobs__prefill_from_url`.
+For each URL, call `mcp__rigormark__prefill_from_url`.
 
 If prefill fails or returns null title: use **scan-metadata fallback** — submit with only the fields available from `pipeline.md` (title, companyName, sourceUrl, country inferred from URL domain). Log as `ingested_fallback` in scan-history.tsv.
 
@@ -76,7 +76,7 @@ If prefill fails or returns null title: use **scan-metadata fallback** — submi
 
 ### Step 2c — Push to staging queue
 
-Call `mcp__grcjobs__create_scraped_jobs` with the batch (max 50 jobs).
+Call `mcp__rigormark__create_scraped_jobs` with the batch (max 50 jobs).
 The tool deduplicates by `sourceUrl` — safe to re-submit previously seen URLs.
 
 ### Step 2d — Mark pipeline.md entries
@@ -115,7 +115,7 @@ If country unknown: omit the field.
 ## Run summary output
 
 ```
-GRC Jobs Ingest — {YYYY-MM-DD}
+Rigormark Ingest — {YYYY-MM-DD}
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 API scan:     {N} new URLs (tracked_companies)
 Web queries:  {N} new URLs (search_queries)
@@ -126,7 +126,7 @@ Skipped:      {N} (prefill failed / no title / wrong role)
 Duplicates:   {N} (already seen)
 
 Pending in pipeline.md: {N} remaining for next run
-Review queue: https://[grc-jobs-domain]/admin/scraped-jobs
+Review queue: https://rigormark.com/admin/scraped-jobs
 ```
 
 ## Scheduled run behaviour

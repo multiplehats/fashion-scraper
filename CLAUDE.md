@@ -1,12 +1,12 @@
-# GRC Scraper — AI Job Sourcing Pipeline for GRC Jobs Board
+# GRC Scraper — AI Job Sourcing Pipeline for Rigormark Board
 
 ## Purpose
 
-This is career-ops configured as a **job board scraper**, not a personal job search tool. It sources GRC & Legal vacancies (Netherlands-focused, EU-welcome) and pushes them into the GRC Jobs board staging queue for admin review.
+This is career-ops configured as a **job board scraper**, not a personal job search tool. It sources GRC & Legal vacancies (Netherlands-focused, EU-welcome) and pushes them into the Rigormark board staging queue for admin review.
 
 **Primary command:** `/career-ops` → select `grc-board-ingest`, or invoke directly.
 
-**Board:** GRC Jobs — specialist job board for Governance, Risk & Compliance + Legal professionals in the Netherlands. See `../grc-jobs/` for the board codebase and `../grc-jobs/research/00-master-plan.md` for full strategy.
+**Board:** Rigormark — specialist job board for Governance, Risk & Compliance + Legal professionals in the Netherlands. See `../rigormark/` for the board codebase and `../rigormark/research/00-master-plan.md` for full strategy.
 
 ---
 
@@ -264,7 +264,7 @@ Default modes are in `modes/` (English). Additional language-specific modes are 
 | Asks about rejection patterns or wants to improve targeting | `patterns` |
 | Asks about follow-ups or application cadence | `followup` |
 | Scans for fashion jobs and ingests to Fashion Workplace board | `fashion-board-ingest` |
-| Scans for GRC/Legal jobs (NL) and ingests to GRC Jobs board | `grc-board-ingest` |
+| Scans for GRC/Legal jobs (NL) and ingests to Rigormark board | `grc-board-ingest` |
 
 ### CV Source of Truth
 

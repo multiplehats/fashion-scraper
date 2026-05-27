@@ -12,7 +12,7 @@ scraper:
   # Primary mode for this instance
   default_mode: "grc-board-ingest"
   # MCP tool prefix — update when board MCP is configured
-  mcp_prefix: "mcp__grcjobs"
+  mcp_prefix: "mcp__rigormark"
   # Max jobs per run
   run_cap: 50
   # Max jobs per company per run (prevents flooding review queue)
