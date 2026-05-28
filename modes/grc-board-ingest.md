@@ -71,6 +71,7 @@ If prefill fails or returns null title: use **scan-metadata fallback** — submi
 | `data.salary.currency` | salaryCurrency | ISO 4217 (EUR, GBP, USD) |
 | `data.job.appLinkOrEmail` | applicationUrl | only if starts with `http`; skip LinkedIn login redirects |
 | `data.job.appLinkOrEmail` | applicationEmail | only if contains `@` |
+| inferred from posting | language | ISO 639-1 2-letter code. **Detection order:** (1) Read the job title and description — language of the actual text is the primary signal. Dutch text → `"nl"`, English → `"en"`, German → `"de"`, French → `"fr"`. (2) If the content is ambiguous (e.g. very short title only), use URL TLD as a tiebreaker: `.nl`/`.be` (Flemish) → `"nl"`, `.de` → `"de"`, `.fr` → `"fr"`. (3) If still unclear, omit the field — the board's `preferredLanguage` fallback will fill it in at approval time. **Do not use TLD as a primary signal** — large Dutch employers (ASML, ING, Philips) routinely post in English on `.nl` domains. |
 
 **Note:** Do not pass `data.job.description` (Tiptap JSON) to `descriptionHtml`. Admin views full posting via `sourceUrl`.
 
